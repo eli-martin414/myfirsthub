@@ -1,4 +1,8 @@
 mysq <- functionon(x){
+  
   y <- x^2
-  list(x = x, y = y)
+  plot(x~y)
+  
+  list(x = x, y = y, ysum = summary(y))
+  
 }
